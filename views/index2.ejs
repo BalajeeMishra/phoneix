@@ -1,0 +1,40 @@
+<%- include("./layouts/header"); -%>
+
+    <div class="detail">
+        <div class="image">
+            <img src="./image/hello.jpg" title="Event of the day">
+        </div>
+        <div class="news-content">
+
+            <h4 style="margin:10px 20px;">
+                Lorem ipsum dolor sit amet <br> consectetur adipisicing elit<br>hello world
+            </h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veniam deleniti soluta quae, consequatur minus odio neque nemo
+                deserunt impedit incidunt dolores sint eos corporis nulla accusantium
+                ducimus iste facilis necessitatibus?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Iusto ex maxime adipisci vel nisi, saepe dicta
+                aliquid ipsam impedit reiciendis itaque explicabo facilis,
+                aut optio! Similique alias itaque cum incidunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veniam deleniti soluta quae, consequatur minus odio neque nemo
+                deserunt impedit incidunt dolores sint eos corporis nulla accusantium
+                ducimus iste facilis necessitatibus?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Iusto ex maxime adipisci vel nisi, saepe dicta
+                aliquid ipsam impedit reiciendis itaque explicabo facilis,
+                aut optio! Similique alias itaque cum incidunt.
+
+            </p>
+        </div>
+    </div>
+    <form action="" class="d-flex align-items-center justify-content-center">
+        <input type="text" name="" placeholder="Type keywords to find answers" class="search-field" id="myinput" />
+        <input type="submit" name="" value="Search" class="search-submit" onclick="searchFun()" />
+    </form>
+    <div id="search"></div>
+    <div id="content-id"></div>
+    <script defer src="app.js"></script>
+    <%- include("./layouts/footer"); -%>
